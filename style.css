@@ -1,0 +1,81 @@
+/* Estilos Globais */
+body {
+    background-color: #FFD1DC; /* Rosa claro */
+    color: #333; /* Texto em tom mais escuro para contraste */
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Botões */
+button {
+    background-color: #FF69B4; /* Rosa vibrante */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-family: "Bai Jamjuree", sans-serif;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #FF1493; /* Rosa mais escuro ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento ao passar o mouse */
+}
+
+/* Contêiner Principal */
+main {
+    background: rgba(255, 255, 255, 0.9); /* Fundo branco semi-transparente */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Passos */
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+/* Imagens */
+img {
+    max-width: 50%; /* Reduz a largura das imagens */
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin: 20px 0;
+}
+
+/* Texto */
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 0 20px;
+}
+
+/* Fontes Encantadas */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap'); /* Fonte encantada */
+
+h1, h2, h3, p {
+    font-family: 'Cinzel', serif; /* Fonte encantada aplicada */
+}
+
+/* Transições */
+.transition {
+    transition: opacity 0.5s ease-in-out;
+}

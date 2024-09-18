@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+    <title>Aventura Fofa: Em Busca do Tesouro Rosa</title>
+</head>
+<body>
+    <main>
+        <!-- Passo 0: Introdução -->
+        <div class="passo ativo" id="passo-0">
+            <img src="https://raw.githubusercontent.com/Bren14m/criando-sua-aventura/refs/heads/main/IMG-20240913-WA0017%20(1).png" alt="Cenário passo 0 - Biblioteca Mágica">
+            <p>Um dia, dentro de um livro da biblioteca, você descobre uma carta antiga sobre um tesouro perdido. Ela dá dicas para encontrá-lo, e você decide seguir as pistas!</p>
+            <button class="btn-proximo" data-proximo="1">Seguir as pistas</button>
+        </div>
+
+       <!-- Passo 1: Escolha da jornada -->
+<div class="passo" id="passo-1" style="text-align: center;">
+    <p>Você se encontra em frente a uma floresta encantada com árvores brilhantes e arbustos cor-de-rosa. O ar é doce e mágico. O que você fará?</p>
+
+    <!-- Adicionando a imagem centralizada -->
+    <img src="https://raw.githubusercontent.com/Bren14m/criando-sua-aventura/refs/heads/main/IMG-20240913-WA0018%20(1).png" alt="Imagem da floresta encantada" style="display: block; margin: 0 auto; width:50%; height:auto;">
+
+    <!-- Legenda da imagem -->
+    <p><em>Imagem da floresta encantada</em></p>
+
+    <!-- Botões abaixo da legenda -->
+    <button class="btn-proximo" data-proximo="2">Entrar na floresta</button>
+    <button class="btn-proximo" data-proximo="3">Procurar algo no jardim ao lado</button>
+</div>
+
+ 
+
+        <!-- Passo 2: Enigma da porta mágica -->
+        <div class="passo" id="passo-2">
+            <p>Uma porta rosa aparece com um enigma gravado: "Sou leve como uma pluma, mas não posso ser segurada. O que sou?"</p>
+            <button class="btn-proximo" data-proximo="4">Resolver o enigma (Vento)</button>
+            <button class="btn-proximo" data-proximo="5">Procurar outra entrada</button>
+        </div>
+
+        <!-- Passo 3: Jardim com espinhos -->
+        <div class="passo" id="passo-3">
+            <p>Enquanto você explora o jardim, encontra um conjunto de flores que parecem proteger uma passagem secreta, mas há espinhos bloqueando a entrada. Você vai continuar?</p>
+            <button class="btn-proximo" data-proximo="5">Procurar algo para neutralizar os espinhos</button>
+        </div>
+
+        <!-- Passo 4: Passando pelo enigma -->
+        <div class="passo" id="passo-4">
+            <p>Você resolveu o enigma! A porta se abre, revelando uma passagem secreta para as cavernas escondidas da cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="6">Entrar nas cavernas</button>
+        </div>
+
+        <!-- Passo 5: Caverna secreta e criatura mágica -->
+        <div class="passo" id="passo-5">
+            <p>Você encontrou uma entrada alternativa e caiu direto em uma caverna! Dentro, uma criatura mágica, de corpo brilhante e olhos curiosos, te observa. Ela parece estar esperando por você para ajudar em sua busca.</p>
+            <button class="btn-proximo" data-proximo="6">Pedir ajuda à criatura</button>
+        </div>
+
+        <!-- Passo 6: Encontro com o Guardião Fofura -->
+        <div class="passo" id="passo-6">
+            <img src="https://raw.githubusercontent.com/Bren14m/criando-sua-aventura/refs/heads/main/arte-de-desenho-animado-de-monstro-3d-fofinho-bonito-inocente-generativa-ia_742252-17005.avif" alt="Guardião Fofura">
+            <p>Você encontrou o Guardião Fofura, um monstro adorável que guarda o tesouro. Mas cuidado! Ele pode se transformar em algo muito mais assustador se provocado!</p>
+            <button class="btn-proximo" data-proximo="7">Resolver o enigma do Guardião</button>
+            <button class="btn-proximo" data-proximo="8">Enfrentar o Guardião</button>
+        </div>
+
+        <!-- Passo 7: Tesouro encantado -->
+        <div class="passo" id="passo-7">
+            <img src="https://raw.githubusercontent.com/Bren14m/criando-sua-aventura/refs/heads/main/66fe200a75e321a2784acceee9d3edd2%20(3).png" alt="Tesouro encantado">
+            <p>Você derrotou o Guardião! O tesouro encantado agora está à sua frente, dentro de uma caixa brilhante decorada com cristais rosa e uma aura mágica. Parabéns!</p>
+        </div>
+
+        <!-- Passo 8: Batalha épica -->
+        <div class="passo" id="passo-8">
+            <p>O Guardião ficou furioso e se transformou em uma criatura assustadora! Você precisa derrotá-lo para obter o tesouro. Prepare-se para a batalha épica!</p>
+            <button class="btn-proximo" data-proximo="7">Vencer a batalha</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
